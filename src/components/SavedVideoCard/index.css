@@ -1,0 +1,12 @@
+.saved-link {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row !important;
+}
+
+@media screen and (max-width: 576px) {
+  .saved-link {
+    display: flex;
+    flex-direction: column !important;
+  }
+}
